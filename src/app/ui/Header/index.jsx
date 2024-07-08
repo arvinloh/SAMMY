@@ -212,7 +212,7 @@ export default function Header({ variant }) {
                       </DropDown>
                     </li> */}
                     <li>
-                      <Link href="/blog/blog-details" onClick={() => setMobileToggle(false)}>
+                      <Link href="/blog" onClick={() => setMobileToggle(false)}>
                         Blog
                       </Link>
                     </li>

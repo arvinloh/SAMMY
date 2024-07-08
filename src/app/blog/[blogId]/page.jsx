@@ -24,7 +24,7 @@ export default function BlogDetailsPage() {
       <Spacing lg='150' md='80'/>
       <Div className="container">
         <Div className="row">
-          <Div className="col-lg-8">
+          {/* <Div className="col-lg-8"> */}
 
             {/* Start Details Post Content */}
             <Div className="cs-post cs-style2">
@@ -96,14 +96,14 @@ export default function BlogDetailsPage() {
             </form>
             {/* End Comment Section */}
           </Div>
-          <Div className="col-xl-3 col-lg-4 offset-xl-1">
+          {/* <Div className="col-xl-3 col-lg-4 offset-xl-1"> */}
             {/* Start Sidebar */}
-            <Spacing lg='0' md='80'/>
-            <Sidebar />
+            {/* <Spacing lg='0' md='80'/>
+            <Sidebar /> */}
             {/* End Sidebar */}
-          </Div>
+          {/* </Div> */}
         </Div>
-      </Div>
+      {/* </Div> */}
       <Spacing lg='150' md='80'/>
       {/* Start Blog Details */}
 

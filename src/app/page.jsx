@@ -412,10 +412,10 @@ export default function Home() {
       {/* End MovingText Section */}
 
       {/* Start LogoList Section */}
-      <Div className="container">
+      {/* <Div className="container">
         <LogoList />
       </Div>
-      <Spacing lg="150" md="80" />
+      <Spacing lg="150" md="80" /> */}
       {/* End LogoList Section */}
 
       {/* Start CTA Section */}
