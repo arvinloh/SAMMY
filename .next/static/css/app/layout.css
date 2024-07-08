@@ -17499,14 +17499,24 @@ label {
 }
 
 .cs-hero.cs-style2 {
-  height: 1150px;
+  /* height: 1150px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding-top: 80px; */
+  height: 800px; /* Adjusted from 1150px to 800px */
   display: flex;
   align-items: center;
   position: relative;
   padding-top: 80px;
 }
 .cs-hero.cs-style2 .cs-hero_tab_item h2 {
-  font-size: 120px;
+  /* font-size: 120px;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 0;
+  z-index: 2; */
+  font-size: 80px; /* Adjusted from 120px to 80px */
   position: relative;
   display: inline-block;
   margin-bottom: 0;

@@ -1,5 +1,7 @@
 'use client';
 import Hero2 from '@/app/ui/Hero/Hero2';
+import IconBox from "@/app/ui/IconBox";
+import CaseStudy from "@/app/ui/CaseStudy";
 import Cta from '@/app/ui/Cta';
 import Div from '@/app/ui/Div';
 import FunFact from '@/app/ui/FunFact';
@@ -51,26 +53,26 @@ const funfaceData = [
 
 const photosData = [
   {
-    title: 'Wedding',
-    imageUrl: '/images/wedding.jpeg',
+    title: 'Serving',
+    imageUrl: '/images/robots.png',
     // href: '/service/service-details',
     href: '#',
   },
   {
-    title: 'Fashion',
-    imageUrl: '/images/fashion.jpeg',
+    title: 'Carrying',
+    imageUrl: '/images/hospital.jpeg',
     // href: '/service/service-details',
     href: '#',
   },
   {
-    title: 'Commercial',
-    imageUrl: '/images/commercial.jpeg',
+    title: 'Cleaning',
+    imageUrl: '/images/cleaning.jpg',
     // href: '/service/service-details',
     href: '#',
   },
   {
-    title: 'Landscape',
-    imageUrl: '/images/landscape.jpeg',
+    title: 'Cooking',
+    imageUrl: '/images/cooking.jpg',
     // href: '/service/service-details',
     href: '#',
   },
@@ -146,7 +148,7 @@ export default function Home() {
       {/* End Photo Section */}
 
       {/* Start Service Section */}
-      <Spacing lg="150" md="80" />
+      {/* <Spacing lg="150" md="80" />
       <Div id="service">
         <Div className="container">
           <Div className="row">
@@ -205,11 +207,12 @@ export default function Home() {
             </Div>
           </Div>
         </Div>
-      </Div>
+      </Div> */}
       {/* End Service Section */}
 
+
       {/* Start Portfolio Section */}
-      <Spacing lg="150" md="50" />
+      {/* <Spacing lg="150" md="50" />
       <Div>
         <Div className="container">
           <SectionHeading
@@ -220,11 +223,11 @@ export default function Home() {
           <Spacing lg="90" md="45" />
         </Div>
         <PortfolioSlider data={portfolioData} />
-      </Div>
+      </Div> */}
       {/* End Portfolio Section */}
 
       {/* Start Awards Section */}
-      <Spacing lg="150" md="80" />
+      {/* <Spacing lg="150" md="80" />
       <Div className="cs-shape_wrap_2">
         <Div className="cs-shape_2">
           <Div />
@@ -244,21 +247,63 @@ export default function Home() {
             </Div>
           </Div>
         </Div>
-      </Div>
+      </Div> */}
       {/* End Awards Section */}
+        
+      {/* Start Service Section */}
+      <Spacing lg='145' md='80'/>
+      <Div className="container">
+        <SectionHeading 
+          title='Design working process' 
+          subtitle='UI/UX Design' 
+          variant='cs-style1 text-center'
+        />
+        <Spacing lg='90' md='45'/>
+        <Div className="row">
+          <Div className="col-lg-4">
+            <IconBox
+              icon='/images/icons/service_icon_1.svg'
+              title="'Job Displacement'"
+              subtitle='Yo'
+            />
+            <Spacing lg='30' md='30'/>
+          </Div>
+          <Div className="col-lg-4">
+            <IconBox
+              icon='/images/icons/service_icon_2.svg'
+              title='Wireframing'
+              subtitle='Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium also a doloremque laudantium, totam remain beatae vitae dictaro enim ipsam sunt explicabo.'
+            />
+            <Spacing lg='30' md='30'/>
+          </Div>
+          <Div className="col-lg-4">
+            <IconBox
+              icon='/images/icons/service_icon_3.svg'
+              title='Prototyping'
+              subtitle='Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium also a doloremque laudantium, totam remain beatae vitae dictaro enim ipsam sunt explicabo.'
+            />
+            <Spacing lg='30' md='30'/>
+          </Div>
+        </Div>
+      </Div>
+      {/* End Service Section */}
 
       {/* Start Video Block Section */}
       <div id="Campaign">
         <Spacing lg="130" md="70" />
         <Div className="container">
           <h2 className="cs-font_50 cs-m0 text-center cs-line_height_4">
-            Our agile process is ability to adapt and respond to change. Agile
-            organizations view change as an opportunity, not a threat.
+            {/* What can we do to combat the <br /> negative perception of robots? */}
+              <SectionHeading
+              title="What can we do to combat the <br /> negative perception of robots?"
+              subtitle="Campaign"
+              variant="cs-style1 text-center"
+            />
           </h2>
           <Spacing lg="70" md="70" />
           <VideoModal
             videoSrc="https://www.youtube.com/watch?v=VcaAVWtP48A"
-            bgUrl="/images/video_bg.jpeg"
+            bgUrl="/images/video_bg_robot.png"
           />
         </Div>
       </div>
@@ -335,6 +380,31 @@ export default function Home() {
       <Spacing lg="145" md="80" />
       {/* End Blog Section */}
       
+
+      {/* Start Case Study Section */}
+      <Spacing lg="45" md="10" />
+      <Div className="container">
+        <SectionHeading
+          title="Featured case study"
+          subtitle="Case Study"
+          variant="cs-style1 text-center"
+        />
+        <Spacing lg="90" md="45" />
+      </Div>
+      <CaseStudy
+        title="Analysis lead <br /> more efficiently"
+        bgUrl="/images/case_study_2.jpeg"
+        href="/case-study/case-study-details"
+        variant="cs-style2"
+      />
+      <CaseStudy
+        title="Ubar food app <br /> case study"
+        bgUrl="/images/case_study_1.jpeg"
+        href="/case-study/case-study-details"
+      />
+      <Spacing lg="150" md="80" />
+      {/* End Case Study Section */}
+
       {/* Start MovingText Section */}
       {/* <Spacing lg="125" md="70" />
       <MovingText text="Our reputed world wide partners" />
