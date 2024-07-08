@@ -17,29 +17,31 @@ export default function Team({
       </Div>
       <Div className="cs-member_info">
         <h2 className="cs-member_name">
-          <Link href="/team/team-details">{memberName}</Link>
+          <Link href="#" onClick={(e) => e.preventDefault()}>
+            {memberName}
+          </Link>
         </h2>
         <Div className="cs-member_designation">{memberDesignation}</Div>
       </Div>
       <Div className="cs-member_social cs-primary_color">
-        {memberSocial.linkedin && (
+        {/* {memberSocial.linkedin && (
           <Link href={memberSocial.linkedin}>
             <Icon icon="fa6-brands:linkedin-in" />
           </Link>
-        )}
-        {memberSocial.twitter && (
+        )} */}
+        {/* {memberSocial.twitter && (
           <Link href={memberSocial.twitter}>
             <Icon icon="fa-brands:twitter" />
           </Link>
-        )}
-        {memberSocial.youtube && (
+        )} */}
+        {/* {memberSocial.youtube && (
           <Link href={memberSocial.youtube}>
             <Icon icon="fa-brands:youtube" />
           </Link>
-        )}
-        {memberSocial.facebook && (
-          <Link href={memberSocial.facebook}>
-            <Icon icon="fa-brands:facebook-f" />
+        )} */}
+        {memberSocial.instagram && (
+          <Link href={memberSocial.instagram}>
+            <Icon icon="fa-brands:instagram" />
           </Link>
         )}
       </Div>

@@ -18,12 +18,12 @@ import Card from './ui/Card';
 // Hero Social Links
 const heroSocialLinks = [
   {
-    name: 'Behance',
+    name: 'Campaign',
     links: '/',
   },
   {
-    name: 'Twitter',
-    links: '/',
+    name: 'Team',
+    links: '#teamDetailsId',
   },
 ];
 // FunFact Data
