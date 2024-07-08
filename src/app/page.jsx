@@ -89,9 +89,8 @@ export default function Home() {
         bgImageUrl="/images/hero_bg.jpeg"
       /> */}
       <Hero10
-        title="Creative People’s Creative Mind"
-        subtitle="We deliver best problem solving solution for our client and provide
-        finest finishing product in present and upcoming future."
+        title="Perception of Robots <br/> in Restaurants"
+        subtitle="What is the perception of robots in restaurants? How do they affect the customer experience? What are the benefits and drawbacks of using robots in restaurants? We will answer all these questions in this article."
         btnLink="/portfolio"
         btnText="See Portfolio"
         // bgImageUrl="/images/hero_bg_6.jpeg"
@@ -105,7 +104,7 @@ export default function Home() {
       <div className="container">
         <FunFact
           variant="cs-type1"
-          title="Our fun fact"
+          title="Fun fact"
           subtitle="Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis."
           data={funfaceData}
         />
