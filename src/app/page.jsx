@@ -1,5 +1,6 @@
 'use client';
 import Hero2 from '@/app/ui/Hero/Hero2';
+import Hero12 from "@/app/ui/Hero/Hero12"; // Video Showcase Hero
 import IconBox from "@/app/ui/IconBox";
 import CaseStudy from "@/app/ui/CaseStudy";
 import Cta from '@/app/ui/Cta';
@@ -104,6 +105,27 @@ const portfolioData = [
     href: '/portfolio/portfolio-details',
     src: '/images/portfolio_3.jpeg',
   },
+];
+
+const showcaseData = [
+  {
+    introTitle: 'Video Direction (Jan, 2023)',
+    title: 'Nature video short',
+    videoUrl: '/video/video-3.mp4',
+    href: '/case-study/case-study-details',
+  },
+  // {
+  //   introTitle: 'Video Direction (Sep, 2023)',
+  //   title: 'TV commercial ad',
+  //   videoUrl: '/video/video-1.mp4',
+  //   href: '/case-study/case-study-details',
+  // },
+  // {
+  //   introTitle: 'Video Direction (Mar, 2023)',
+  //   title: '3D world comes',
+  //   videoUrl: '/video/video-2.mp4',
+  //   href: '/case-study/case-study-details',
+  // },
 ];
 
 export default function Home() {
@@ -254,8 +276,8 @@ export default function Home() {
       <Spacing lg='145' md='80'/>
       <Div className="container">
         <SectionHeading 
-          title='Design working process' 
-          subtitle='UI/UX Design' 
+          title='Ideal Robots in Hospitality Industry' 
+          subtitle='Analysis' 
           variant='cs-style1 text-center'
         />
         <Spacing lg='90' md='45'/>
@@ -263,24 +285,30 @@ export default function Home() {
           <Div className="col-lg-4">
             <IconBox
               icon='/images/icons/service_icon_1.svg'
-              title="'Job Displacement'"
-              subtitle='Yo'
+              title="Ethical and Social Considerations"
+              subtitle={`Address the potential for job displacement by upskilling and reskilling employees to work alongside robots or take on new roles created by technological advancements. <br/> <br/>
+              Privacy and security are paramount, necessitating robust data protection measures and transparency about data usage. <br/><br/>
+              It's also important to ensure that robots are inclusive and accessible to all guests, accommodating a diverse range of needs and abilities.`}
             />
             <Spacing lg='30' md='30'/>
           </Div>
           <Div className="col-lg-4">
             <IconBox
               icon='/images/icons/service_icon_2.svg'
-              title='Wireframing'
-              subtitle='Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium also a doloremque laudantium, totam remain beatae vitae dictaro enim ipsam sunt explicabo.'
+              title='Customer Experience and Interaction'
+              subtitle={`Enhance service by incorporating robots that can remember guest preferences and provide personalized recommendations. <br/><br/>
+              It's crucial to strike a balance between automation and the human touch, allowing robots to handle routine tasks while human staff manage more complex or sensitive interactions. <br/><br/>
+              Additionally, robots should have an intuitive design, with clear instructions and accessibility features, ensuring all guests can easily use them.`}
             />
             <Spacing lg='30' md='30'/>
           </Div>
           <Div className="col-lg-4">
             <IconBox
               icon='/images/icons/service_icon_3.svg'
-              title='Prototyping'
-              subtitle='Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium also a doloremque laudantium, totam remain beatae vitae dictaro enim ipsam sunt explicabo.'
+              title='Operational Efficiency and Integration:'
+              subtitle={`Robots should seamlessly integrate into existing workflows, complementing the efforts of human staff to improve overall efficiency. <br/><br/>
+              Reliability and ease of maintenance are key, requiring regular maintenance schedules and quick troubleshooting protocols to ensure continuous service. <br/><br/>
+              Proper data management practices should be in place to analyze collected data for ongoing improvement while safeguarding guest privacy and security.`}
             />
             <Spacing lg='30' md='30'/>
           </Div>
@@ -392,13 +420,13 @@ export default function Home() {
         <Spacing lg="90" md="45" />
       </Div>
       <CaseStudy
-        title="Analysis lead <br /> more efficiently"
+        title="Robot vs <br /> Humans"
         bgUrl="/images/case_study_2.jpeg"
         href="/case-study/case-study-details"
         variant="cs-style2"
       />
       <CaseStudy
-        title="Ubar food app <br /> case study"
+        title="Robots <br /> importance in hospitality"
         bgUrl="/images/case_study_1.jpeg"
         href="/case-study/case-study-details"
       />
@@ -418,6 +446,14 @@ export default function Home() {
       <Spacing lg="150" md="80" /> */}
       {/* End LogoList Section */}
 
+
+      <Hero12
+        // heroSocialLinks={heroSocialLinks}
+        // socialLinksHeading="Follow Us"
+        showcaseData={showcaseData}
+      />
+
+      <Spacing lg="150" md="80" />  
       {/* Start CTA Section */}
       <Div className="container">
         <Cta 
@@ -427,6 +463,7 @@ export default function Home() {
           bgSrc='/images/cta_bg.jpeg'
         />
       </Div>
+      
       {/* End CTA Section */}
     </>
   );

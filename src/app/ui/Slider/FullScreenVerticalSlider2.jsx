@@ -17,7 +17,7 @@ export default function FullScreenVerticalSlider({ data }) {
           mousewheel={true}
           pagination={false}
           speed={1000}
-          loop={true}
+          loop={false}
           modules={[Mousewheel, Pagination, Navigation]}
           className="mySwiper"
           navigation={{
