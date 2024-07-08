@@ -1,8 +1,8 @@
 {
   "/page": "app/page.js",
-  "/blog/future-robot/page": "app/blog/future-robot/page.js",
   "/blog/rise-robots/page": "app/blog/rise-robots/page.js",
+  "/blog/future-robot/page": "app/blog/future-robot/page.js",
+  "/blog/page": "app/blog/page.js",
   "/about/page": "app/about/page.js",
-  "/case-study/[caseStudyId]/page": "app/case-study/[caseStudyId]/page.js",
-  "/not-found": "app/not-found.js"
+  "/case-study/[caseStudyId]/page": "app/case-study/[caseStudyId]/page.js"
 }
