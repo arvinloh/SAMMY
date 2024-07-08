@@ -1,4 +1,5 @@
 'use client';
+import Hero2 from '@/app/ui/Hero/Hero2';
 import Cta from '@/app/ui/Cta';
 import Div from '@/app/ui/Div';
 import FunFact from '@/app/ui/FunFact';
@@ -47,6 +48,34 @@ const funfaceData = [
     factNumber: '48%',
   },
 ];
+
+const photosData = [
+  {
+    title: 'Wedding',
+    imageUrl: '/images/wedding.jpeg',
+    // href: '/service/service-details',
+    href: '#',
+  },
+  {
+    title: 'Fashion',
+    imageUrl: '/images/fashion.jpeg',
+    // href: '/service/service-details',
+    href: '#',
+  },
+  {
+    title: 'Commercial',
+    imageUrl: '/images/commercial.jpeg',
+    // href: '/service/service-details',
+    href: '#',
+  },
+  {
+    title: 'Landscape',
+    imageUrl: '/images/landscape.jpeg',
+    // href: '/service/service-details',
+    href: '#',
+  },
+];
+
 // Portfolio Data
 const portfolioData = [
   {
@@ -111,6 +140,10 @@ export default function Home() {
         />
       </div>
       {/* End FunFact Section */}
+
+      {/* Start Photo Section */}
+      <Hero2 data={photosData} onClick={(e) => e.preventDefault()}/>
+      {/* End Photo Section */}
 
       {/* Start Service Section */}
       <Spacing lg="150" md="80" />
@@ -303,9 +336,9 @@ export default function Home() {
       {/* End Blog Section */}
       
       {/* Start MovingText Section */}
-      <Spacing lg="125" md="70" />
+      {/* <Spacing lg="125" md="70" />
       <MovingText text="Our reputed world wide partners" />
-      <Spacing lg="105" md="70" />
+      <Spacing lg="105" md="70" /> */}
       {/* End MovingText Section */}
 
       {/* Start LogoList Section */}

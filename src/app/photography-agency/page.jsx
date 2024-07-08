@@ -18,22 +18,26 @@ const heroData = [
   {
     title: 'Wedding',
     imageUrl: '/images/wedding.jpeg',
-    href: '/service/service-details',
+    // href: '/service/service-details',
+    href: '#',
   },
   {
     title: 'Fashion',
     imageUrl: '/images/fashion.jpeg',
-    href: '/service/service-details',
+    // href: '/service/service-details',
+    href: '#',
   },
   {
     title: 'Commercial',
     imageUrl: '/images/commercial.jpeg',
-    href: '/service/service-details',
+    // href: '/service/service-details',
+    href: '#',
   },
   {
     title: 'Landscape',
     imageUrl: '/images/landscape.jpeg',
-    href: '/service/service-details',
+    // href: '/service/service-details',
+    href: '#',
   },
 ];
 const funfaceData = [
