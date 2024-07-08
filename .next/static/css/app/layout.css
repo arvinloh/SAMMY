@@ -19708,7 +19708,12 @@ label {
 .cs-team.cs-style1 .cs-member_name {
   font-size: 22px;
   margin-bottom: 6px;
-}
+  text-shadow: 
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; /* Create an outline effect */
+  }
 .cs-team.cs-style1 .cs-member_info {
   position: absolute;
   left: 0;
@@ -19716,6 +19721,12 @@ label {
   width: 100%;
   z-index: 3;
   padding: 30px 25px;
+  color: white; 
+  text-shadow: 
+  -1px -1px 0 #000,  
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000; /* Create an outline effect */
 }
 .cs-team.cs-style1 .cs-member_social {
   position: absolute;
@@ -19731,6 +19742,7 @@ label {
   transform: scale(0) rotate(45deg);
   opacity: 0;
   transition: all 0.4s ease;
+  color: blue; /* Set the font color to black */
 }
 .cs-team.cs-style1:hover .cs-member_social a {
   transform: scale(1) rotate(0deg);

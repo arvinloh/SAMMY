@@ -49,7 +49,7 @@ const teamData = [
     },
   },
   {
-    memberImage: '/images/member_1.jpeg',
+    memberImage: '/images/member_5.jpeg',
     memberName: 'Milos Milojevic',
     memberDesignation: 'Politics and Philosophy',
     memberSocial: {
