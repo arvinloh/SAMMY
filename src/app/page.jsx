@@ -109,13 +109,13 @@ const portfolioData = [
 
 const showcaseData = [
   {
-    introTitle: 'Video Direction (Jan, 2023)',
-    title: 'Nature video short',
+    introTitle: 'Video Direction (Jul, 2023)',
+    title: 'Campaign Video',
     videoUrl: '/video/video-3.mp4',
-    href: '/case-study/case-study-details',
+    href: '#',
   },
   // {
-  //   introTitle: 'Video Direction (Sep, 2023)',
+  //   introTitle: 'Video Direction (Jul, 2023)',
   //   title: 'TV commercial ad',
   //   videoUrl: '/video/video-1.mp4',
   //   href: '/case-study/case-study-details',

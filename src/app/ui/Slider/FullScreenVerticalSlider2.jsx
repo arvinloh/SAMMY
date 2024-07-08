@@ -1,16 +1,33 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Mousewheel, Pagination, Navigation } from 'swiper';
 import Div from '../Div';
 import Link from 'next/link';
 
 export default function FullScreenVerticalSlider({ data }) {
+  const swiperRef = useRef(null);
+
+  const handleMouseEnter = () => {
+    if (swiperRef.current && swiperRef.current.mousewheel) {
+      swiperRef.current.mousewheel.disable();
+    }
+  };
+
+  const handleMouseLeave = () => {
+    if (swiperRef.current && swiperRef.current.mousewheel) {
+      swiperRef.current.mousewheel.enable();
+    }
+  };
+
   return (
     <>
       <Div className="cs-vertical_slider cs-swiper_arrow_style_1">
         <Div className="cs-down_btn cs-swiper_button_next"></Div>
 
         <Swiper
+          onSwiper={(swiper) => {
+            swiperRef.current = swiper;
+          }}
           direction={'vertical'}
           slidesPerView={1}
           spaceBetween={0}
@@ -27,7 +44,11 @@ export default function FullScreenVerticalSlider({ data }) {
           }}
         >
           {data.map((item, index) => (
-            <SwiperSlide key={index}>
+            <SwiperSlide 
+              key={index}
+              onMouseEnter={handleMouseEnter}
+              onMouseLeave={handleMouseLeave}
+            >
               <Div className="cs-hero cs-style5 cs_type_1">
                 <video autoPlay loop muted>
                   <source src={item.videoUrl} type="video/mp4" />
