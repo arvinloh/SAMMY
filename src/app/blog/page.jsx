@@ -78,11 +78,11 @@ export default function BlogPage() {
       </Div>
       <Spacing lg="150" md="80" />
       <Div className="container">
-        <Cta
-          title="Let’s disscuse make <br />something <i>cool</i> together"
-          btnText="Apply For Meeting"
-          btnLink="/contact"
-          bgSrc="/images/cta_bg.jpeg"
+        <Cta 
+          title='Help us in our campaign by filling up a questionnaire' 
+          btnText='Form' 
+          btnLink='https://forms.gle/A8dzDrUfjDeY7HMk9' 
+          bgSrc='/images/cta_bg.jpeg'
         />
       </Div>
     </>

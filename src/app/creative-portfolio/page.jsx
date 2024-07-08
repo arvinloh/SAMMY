@@ -144,11 +144,11 @@ export default function CreativePortfolioHome() {
 
       {/* Start CTA Section */}
       <Div className="container">
-        <Cta
-          title="Let’s disscuse make <br />something <i>cool</i> together"
-          btnText="Apply For Meeting"
-          btnLink="/contact"
-          bgSrc="/images/cta_bg_3.jpeg"
+        <Cta 
+          title='Help us in our campaign by filling up a questionnaire' 
+          btnText='Form' 
+          btnLink='https://forms.gle/A8dzDrUfjDeY7HMk9' 
+          bgSrc='/images/cta_bg.jpeg'
         />
       </Div>
       {/* End CTA Section */}

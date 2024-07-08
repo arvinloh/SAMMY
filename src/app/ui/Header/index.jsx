@@ -321,10 +321,10 @@ export default function Header({ variant }) {
               Please follow our campaign <br /> Keep connect us.
             </h2>
           </Div>
-          {/* <Div className="cs-side_header_box">
-            <ContactInfoWidget title="Contact Us" withIcon />
-          </Div>
           <Div className="cs-side_header_box">
+            <ContactInfoWidget title="We are from" withIcon />
+          </Div>
+          {/* <Div className="cs-side_header_box">
             <Newsletter
               title="Subscribe"
               subtitle="At vero eos et accusamus et iusto odio as part dignissimos ducimus qui blandit."

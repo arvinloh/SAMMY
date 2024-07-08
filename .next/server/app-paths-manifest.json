@@ -1,8 +1,3 @@
 {
-  "/page": "app/page.js",
-  "/portfolio/page": "app/portfolio/page.js",
-  "/portfolio/[portfolioDetailsId]/page": "app/portfolio/[portfolioDetailsId]/page.js",
-  "/blog/page": "app/blog/page.js",
-  "/blog/[blogId]/page": "app/blog/[blogId]/page.js",
-  "/not-found": "app/not-found.js"
+  "/page": "app/page.js"
 }
