@@ -11,33 +11,33 @@ import Spacing from "@/app/ui/Spacing";
 const postData = [
   {
     thumb: '/images/post_4.jpeg',
-    title: 'A.I will take all human job within next year',
+    title: 'The Rise of Robots in Restaurants: Transforming the Dining Experience',
     subtitle:
-      'Elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique. Tortor posuere ac ut consequat semper viverra nam libero justo. Mauris commodo quis imperdiet massa tincidunt nunc pulvinar sapien et. Aliquam purus sit amet luctus venenatis lectus magna fringilla urna. Purus sit amet luctus venenatis lectus. Nunc aliquet bibendum enim facilisis. Pretium viverra suspendisse potenti nullam ac tortor vitae.',
-    date: '07 Mar 2022',
+      'Globally, the adoption of robots in restaurants is accelerating. For instance, in 2022, over 553,052 industrial robots were installed worldwide, marking a significant increase from previous years​,',
+    date: '09 Jul 2024',
     category: 'Tech',
     categoryHref: '/blog',
-    href: '/blog/blog-details',
+    href: '/blog/rise-robots',
   },
   {
-    thumb: '/images/post_5.jpeg',
-    title: 'Creative studio programm coming soon',
+    thumb: '/images/post_4.jpeg',
+    title: 'Future Prospects of Robotics in the Restaurant Industry',
     subtitle:
-      'Elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique. Tortor posuere ac ut consequat semper viverra nam libero justo. Mauris commodo quis imperdiet massa tincidunt nunc pulvinar sapien et. Aliquam purus sit amet luctus venenatis lectus magna fringilla urna. Purus sit amet luctus venenatis lectus. Nunc aliquet bibendum enim facilisis. Pretium viverra suspendisse potenti nullam ac tortor vitae.',
-    date: '05 Mar 2022',
-    category: 'Photography',
-    categoryHref: '/blog',
-    href: '/blog/blog-details',
-  },
-  {
-    thumb: '/images/post_6.jpeg',
-    title: 'Artistic mind will be great for creation',
-    subtitle:
-      'Elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique. Tortor posuere ac ut consequat semper viverra nam libero justo. Mauris commodo quis imperdiet massa tincidunt nunc pulvinar sapien et. Aliquam purus sit amet luctus venenatis lectus magna fringilla urna. Purus sit amet luctus venenatis lectus. Nunc aliquet bibendum enim facilisis. Pretium viverra suspendisse potenti nullam ac tortor vitae.',
-    date: '04 Mar 2022',
+      'The future of the restaurant industry is increasingly intertwined with the advancements in robotics. ',
+    date: '08 Jul 2024',
     category: 'Tech',
     categoryHref: '/blog',
-    href: '/blog/blog-details',
+    href: '/blog/future-robot',
+  },
+  {
+    thumb: '/images/post_4.jpeg',
+    title: 'Economic and Cultural Impact of Service Robots in the Hospitality Industry',
+    subtitle:
+      'The introduction of service robots in the hospitality industry is reshaping not only business operations but also economic and cultural landscapes.',
+    date: '07 Jul 2024',
+    category: 'Tech',
+    categoryHref: '/blog',
+    href: '/blog/eco-culture',
   },
 ];
 

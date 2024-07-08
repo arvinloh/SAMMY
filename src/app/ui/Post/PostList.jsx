@@ -1,40 +1,40 @@
 import React from 'react';
 const postData = [
   {
-    title: 'How to keep fear from ruining your art business with confident',
-    postHref: '/blog/blog-details',
+    title: 'The Rise of Robots in Restaurants: Transforming the Dining Experience',
+    postHref: '/blog/rise-robots',
     subtitle:
-      'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium lorema doloremque laudantium, totam rem aperiam, eaque ipsa quae...',
+      'Globally, the adoption of robots in restaurants is accelerating. For instance, in 2022, over 553,052 industrial robots were installed worldwide, marking a significant increase from previous years​,',
     authorName: 'SAMMY',
     authorImg: '/images/SAMMY.png',
     authorDesignation: 'Melbourne, Australia',
-    date: '07',
-    month: 'Mar',
-    year: '2022',
+    date: '09',
+    month: 'Jul',
+    year: '2024',
   },
   {
-    title: 'A.I becomes more powerful day by day with new approaches',
-    postHref: '/blog/blog-details',
+    title: 'Future Prospects of Robotics in the Restaurant Industry',
+    postHref: '/blog/future-robot',
     subtitle:
-      'lol ut perspiciatis unde omnis iste natus error sit voluptatem accusantium lorema doloremque laudantium, totam rem aperiam, eaque ipsa quae...',
+      'The future of the restaurant industry is increasingly intertwined with the advancements in robotics. ',
     authorName: 'SAMMY',
     authorImg: '/images/SAMMY.png',
     authorDesignation: 'Melbourne, Australia',
-    date: '15',
-    month: 'Mar',
-    year: '2022',
+    date: '8',
+    month: 'Jul',
+    year: '2024',
   },
   {
-    title: 'Local SEO is a very essential role play for new websites',
-    postHref: '/blog/blog-details',
+    title: 'Economic and Cultural Impact of Service Robots in the Hospitality Industry',
+    postHref: '/blog/eco-culture',
     subtitle:
-      'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium lorema doloremque laudantium, totam rem aperiam, eaque ipsa quae...',
+      'The introduction of service robots in the hospitality industry is reshaping not only business operations but also economic and cultural landscapes.',
     authorName: 'SAMMY',
     authorImg: '/images/SAMMY.png',
     authorDesignation: 'Melbourne, Australia',
-    date: '20',
-    month: 'Mar',
-    year: '2022',
+    date: '7',
+    month: 'Jul',
+    year: '2024',
   },
 ];
 
