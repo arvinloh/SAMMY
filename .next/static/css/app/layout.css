@@ -19739,6 +19739,7 @@ label {
 .cs-team.cs-style1:hover .cs-member_social a {
   transform: scale(1) rotate(0deg);
   opacity: 1;
+  color: blue;
 }
 .cs-team.cs-style1:hover .cs-member_thumb img {
   transform: scale(1.06) translateY(8px);
