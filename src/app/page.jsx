@@ -30,8 +30,8 @@ const heroSocialLinks = [
 // FunFact Data
 const funfaceData = [
   {
-    title: 'Global Happy Clients',
-    factNumber: '40K',
+    title: 'Average Waiter Salary',
+    factNumber: '~52K',
   },
   {
     title: 'Project Completed',
@@ -90,9 +90,9 @@ export default function Home() {
       /> */}
       <Hero10
         title="Perception of Robots <br/> in Restaurants"
-        subtitle="What is the perception of robots in restaurants? How do they affect the customer experience? What are the benefits and drawbacks of using robots in restaurants? We will answer all these questions in this article."
-        btnLink="/portfolio"
-        btnText="See Portfolio"
+        subtitle="Ethics/Privacy/Security/Trust/Human"
+        btnLink="/blog"
+        btnText="See Blog"
         // bgImageUrl="/images/hero_bg_6.jpeg"
         // imgUrl="/images/hero_img_1.png"
         shape2Url="/images/hero_img_3.png"
