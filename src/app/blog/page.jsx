@@ -20,7 +20,7 @@ const postData = [
     href: '/blog/rise-robots',
   },
   {
-    thumb: '/images/post_4.jpeg',
+    thumb: '/images/post_6.jpeg',
     title: 'Future Prospects of Robotics in the Restaurant Industry',
     subtitle:
       'The future of the restaurant industry is increasingly intertwined with the advancements in robotics. ',
@@ -30,7 +30,7 @@ const postData = [
     href: '/blog/future-robot',
   },
   {
-    thumb: '/images/post_4.jpeg',
+    thumb: '/images/post_5.jpeg',
     title: 'Economic and Cultural Impact of Service Robots in the Hospitality Industry',
     subtitle:
       'The introduction of service robots in the hospitality industry is reshaping not only business operations but also economic and cultural landscapes.',
