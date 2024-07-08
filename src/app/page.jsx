@@ -3,6 +3,7 @@ import Cta from '@/app/ui/Cta';
 import Div from '@/app/ui/Div';
 import FunFact from '@/app/ui/FunFact';
 import Hero from '@/app/ui/Hero';
+import Hero10 from "@/app/ui/Hero/Hero10";
 import LogoList from '@/app/ui/LogoList';
 import MovingText from '@/app/ui/MovingText';
 import SectionHeading from '@/app/ui/SectionHeading';
@@ -19,11 +20,11 @@ import Card from './ui/Card';
 const heroSocialLinks = [
   {
     name: 'Campaign',
-    links: '/',
+    links: '#Campaign',
   },
   {
     name: 'Team',
-    links: '#teamDetailsId',
+    links: '#teamSection',
   },
 ];
 // FunFact Data
@@ -77,7 +78,7 @@ export default function Home() {
   return (
     <>
       {/* Start Hero Section */}
-      <Hero
+      {/* <Hero
         title="Creativity In <br/>Our Blood Line"
         subtitle="We deliver best problem solving solution for our client and provide finest finishing product in present and upcoming future."
         btnText="Get a Quote"
@@ -86,6 +87,17 @@ export default function Home() {
         socialLinksHeading="Follow Us"
         heroSocialLinks={heroSocialLinks}
         bgImageUrl="/images/hero_bg.jpeg"
+      /> */}
+      <Hero10
+        title="Creative People’s Creative Mind"
+        subtitle="We deliver best problem solving solution for our client and provide
+        finest finishing product in present and upcoming future."
+        btnLink="/portfolio"
+        btnText="See Portfolio"
+        // bgImageUrl="/images/hero_bg_6.jpeg"
+        // imgUrl="/images/hero_img_1.png"
+        shape2Url="/images/hero_img_3.png"
+        shape3Url="/images/hero_img_4.png"
       />
       {/* End Hero Section */}
 
@@ -203,32 +215,36 @@ export default function Home() {
       {/* End Awards Section */}
 
       {/* Start Video Block Section */}
-      <Spacing lg="130" md="70" />
-      <Div className="container">
-        <h2 className="cs-font_50 cs-m0 text-center cs-line_height_4">
-          Our agile process is ability to adapt and respond to change. Agile
-          organizations view change as an opportunity, not a threat.
-        </h2>
-        <Spacing lg="70" md="70" />
-        <VideoModal
-          videoSrc="https://www.youtube.com/watch?v=VcaAVWtP48A"
-          bgUrl="/images/video_bg.jpeg"
-        />
-      </Div>
+      <div id="Campaign">
+        <Spacing lg="130" md="70" />
+        <Div className="container">
+          <h2 className="cs-font_50 cs-m0 text-center cs-line_height_4">
+            Our agile process is ability to adapt and respond to change. Agile
+            organizations view change as an opportunity, not a threat.
+          </h2>
+          <Spacing lg="70" md="70" />
+          <VideoModal
+            videoSrc="https://www.youtube.com/watch?v=VcaAVWtP48A"
+            bgUrl="/images/video_bg.jpeg"
+          />
+        </Div>
+      </div>
       {/* End Video Block Section */}
 
       {/* Start Team Section */}
-      <Spacing lg="145" md="80" />
-      <Div className="container">
-        <SectionHeading
-          title="Awesome team <br/>members"
-          subtitle="Our Team"
-          variant="cs-style1"
-        />
-        <Spacing lg="85" md="45" />
-        <TeamSlider />
-      </Div>
-      <Spacing lg="150" md="80" />
+      <div id="teamSection">
+        <Spacing lg="145" md="80" />
+        <Div className="container">
+          <SectionHeading
+            title="Awesome team <br/>members"
+            subtitle="Our Team"
+            variant="cs-style1"
+          />
+          <Spacing lg="85" md="45" />
+          <TeamSlider />
+        </Div>
+        <Spacing lg="150" md="80" />
+      </div>
       {/* End Team Section */}
 
       {/* Start Testimonial Section */}
