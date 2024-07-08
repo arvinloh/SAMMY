@@ -3,6 +3,5 @@
   "/service/page": "app/service/page.js",
   "/about/page": "app/about/page.js",
   "/team/[teamDetailsId]/page": "app/team/[teamDetailsId]/page.js",
-  "/team/page": "app/team/page.js",
-  "/not-found": "app/not-found.js"
+  "/team/page": "app/team/page.js"
 }
