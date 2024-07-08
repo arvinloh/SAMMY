@@ -9,6 +9,7 @@ import MovingText from '@/app/ui/MovingText';
 import SectionHeading from '@/app/ui/SectionHeading';
 import PortfolioSlider from '@/app/ui/Slider/PortfolioSlider';
 import PostSlider from '@/app/ui/Slider/PostSlider';
+import PostList from "@/app/ui/Post/PostList";
 import TeamSlider from '@/app/ui/Slider/TeamSlider';
 import TestimonialSlider from '@/app/ui/Slider/TestimonialSlider';
 import TimelineSlider from '@/app/ui/Slider/TimelineSlider';
@@ -31,19 +32,19 @@ const heroSocialLinks = [
 const funfaceData = [
   {
     title: 'Average Waiter Salary',
-    factNumber: '~52K',
+    factNumber: '~$52K',
   },
   {
-    title: 'Project Completed',
-    factNumber: '50K',
+    title: 'Average Restaurant Robot Cost',
+    factNumber: '~$15.9K',
   },
   {
-    title: 'Team Members',
-    factNumber: '245',
+    title: 'Hotel Robots Invested by 2025',
+    factNumber: '~$338M',
   },
   {
-    title: 'Digital products',
-    factNumber: '550',
+    title: 'Increase of 2021 Sales vs 2022 Sales',
+    factNumber: '48%',
   },
 ];
 // Portfolio Data
@@ -105,7 +106,7 @@ export default function Home() {
         <FunFact
           variant="cs-type1"
           title="Fun fact"
-          subtitle="Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis."
+          subtitle="Robots are making significant strides in the hospitality industry, enhancing operational efficiency and guest experiences. Their increased adoption has pushed the industry to rethink about human versus robot service."
           data={funfaceData}
         />
       </div>
@@ -247,11 +248,11 @@ export default function Home() {
       {/* End Team Section */}
 
       {/* Start Testimonial Section */}
-      <TestimonialSlider />
+      {/* <TestimonialSlider /> */}
       {/* End Testimonial Section */}
 
       {/* Start Blog Section */}
-      <Spacing lg="150" md="80" />
+      {/* <Spacing lg="150" md="80" />
       <Div className="cs-shape_wrap_4">
         <Div className="cs-shape_4"></Div>
         <Div className="cs-shape_4"></Div>
@@ -273,9 +274,34 @@ export default function Home() {
             </Div>
           </Div>
         </Div>
-      </Div>
+      </Div> */}
       {/* End Blog Section */}
 
+      {/* Start Blog Section */}
+      <Div className="cs-shape_wrap_4">
+        <Div className="cs-shape_4"></Div>
+        <Div className="cs-shape_4"></Div>
+        <Spacing lg="145" md="80" />
+        <Div className="container">
+          <Div className="row">
+            <Div className="col-lg-5 col-xl-4">
+              <SectionHeading
+                title="Explore recent publication"
+                subtitle="Our Blog"
+                btnText="View More Blog"
+                btnLink="/blog"
+              />
+              <Spacing lg="45" md="45" />
+            </Div>
+            <Div className="col-lg-7 offset-xl-1">
+              <PostList />
+            </Div>
+          </Div>
+        </Div>
+      </Div>
+      <Spacing lg="145" md="80" />
+      {/* End Blog Section */}
+      
       {/* Start MovingText Section */}
       <Spacing lg="125" md="70" />
       <MovingText text="Our reputed world wide partners" />
