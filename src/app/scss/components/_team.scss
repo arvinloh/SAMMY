@@ -32,6 +32,11 @@
   .cs-member_name {
     font-size: 22px;
     margin-bottom: 6px;
+    text-shadow: 
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; /* Create an outline effect */
   }
   .cs-member_info {
     position: absolute;
@@ -40,6 +45,13 @@
     width: 100%;
     z-index: 3;
     padding: 30px 25px;
+    color: white; /* Main font color */
+    font-weight: bold; /* Make the font bold */
+    text-shadow: 
+      -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+      1px 1px 0 #000; /* Create an outline effect */
   }
   .cs-member_social {
     position: absolute;
