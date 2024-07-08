@@ -111,7 +111,7 @@ const showcaseData = [
   {
     introTitle: 'Video Direction (Jul, 2023)',
     title: 'Campaign Video',
-    videoUrl: '/video/video-3.mp4',
+    videoUrl: '/video/video-4.mp4',
     href: '#',
   },
   // {
@@ -422,13 +422,15 @@ export default function Home() {
       <CaseStudy
         title="Robot vs <br /> Humans"
         bgUrl="/images/case_study_2.jpeg"
-        href="/case-study/case-study-details"
+        href="#"
+        // href="/case-study/case-study-details"
         variant="cs-style2"
       />
       <CaseStudy
         title="Robots <br /> importance in hospitality"
         bgUrl="/images/case_study_1.jpeg"
-        href="/case-study/case-study-details"
+        href="#"
+        // href="/case-study/case-study-details"
       />
       <Spacing lg="150" md="80" />
       {/* End Case Study Section */}

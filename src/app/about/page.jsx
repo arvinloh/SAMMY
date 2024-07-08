@@ -7,9 +7,9 @@ import PageHeading from "@/app/ui/PageHeading";
 import SectionHeading from "@/app/ui/SectionHeading";
 import TeamSlider from "@/app/ui/Slider/TeamSlider";
 import Spacing from "@/app/ui/Spacing";
-import aboutImg from '../../../public/images/about_img_1.jpeg'
-import aboutImg2 from '../../../public/images/about_img_2.jpeg'
-import aboutImg3 from '../../../public/images/about_img_3.jpeg'
+import aboutImg from '../../../public/images/about2.jpeg'
+import aboutImg2 from '../../../public/images/about1.jpeg'
+import aboutImg3 from '../../../public/images/about3.jpeg'
 import aboutImg4 from '../../../public/images/about_img_4.jpeg'
 
 
@@ -51,17 +51,26 @@ export default function AboutPage() {
         <Div className="row">
           <Div className="col-xl-5 col-lg-7">
             <SectionHeading
-              title="Your trusted partner for business"
-              subtitle="About Our Agency"
+              title="What is SAMMY?"
+              subtitle="Monash RED Team"
             >
               <Spacing lg="30" md="20" />
-              <p className="cs-m0">
-                This is the main factor that sets us apart from our competition
-                and allows us to deliver a specialist business consultancy
-                service. Our team applies its wide-ranging experience to
-                determining. Through our years of experience, we’ve also learned
-                that while each channel.
-              </p>
+                <li><strong>S</strong>herena Simangunsong</li>
+                <li><strong>A</strong>rvin Hay (Kwan Ming)</li>
+                <li><strong>M</strong>atthew Yau</li>
+                <li><strong>M</strong>ilos Milojevic</li>
+                <li><strong>Y</strong>uga Gunawan (Arkayuga)</li>
+                <br />
+                <p style={{ textDecoration: 'underline' }}>It is our initials combined to form SAMMY.</p>
+                <br />
+                <p className="cs-m0">
+                  We are a dedicated team from Monash RED focused on researching the critical geopolitical security challenges posed by robots in public spaces. Specifically, we decided to explore public perception of robots in environments such as restaurants and work towards finding an ideal solution.
+                </p>
+                <br />
+                <p className="cs-m0">
+                  Throughout our journey, we have meticulously considered all stakeholders, ethical implications, various proposals, and relevant statistics to deepen our understanding of the problem space. Our website showcases our findings and our proposed ideal solution - the campaign.
+                </p>
+
               <Spacing lg="30" md="30" />
               <Div className="cs-separator cs-accent_bg"></Div>
               <Spacing lg="25" md="40" />
@@ -97,17 +106,17 @@ export default function AboutPage() {
       {/* End About Section */}
 
       {/* Start Fun Fact Section */}
-      <Div className="container">
+      {/* <Div className="container">
         <FunFact
           title="Our fun fact"
           subtitle="Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis."
           data={funfaceData}
         />
-      </Div>
+      </Div> */}
       {/* End Fun Fact Section */}
 
       {/* Start Why Choose Section */}
-      <Spacing lg="100" md="80" />
+      {/* <Spacing lg="100" md="80" />
       <Div className="container">
         <Div className="row">
           <Div className="col-xl-5 col-lg-6">
@@ -148,7 +157,7 @@ export default function AboutPage() {
             </SectionHeading>
           </Div>
         </Div>
-      </Div>
+      </Div> */}
       {/* End Why Choose Section */}
 
       {/* Start Team Section */}

@@ -116,9 +116,9 @@ export default function Sidebar() {
           description='A student initiatives stemming from the Monash University, Australia.'
         />
       </Div>
-      <Div className="cs-sidebar_item">
+      {/* <Div className="cs-sidebar_item">
         <SearchWidget title='Search'/>
-      </Div>
+      </Div> */}
       {/* <Div className="cs-sidebar_item">
         <SideMenuWidget title='Categories' data={categoryData}/>
       </Div> */}
