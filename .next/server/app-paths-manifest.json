@@ -3,6 +3,5 @@
   "/blog/future-robot/page": "app/blog/future-robot/page.js",
   "/blog/rise-robots/page": "app/blog/rise-robots/page.js",
   "/about/page": "app/about/page.js",
-  "/not-found": "app/not-found.js",
   "/case-study/[caseStudyId]/page": "app/case-study/[caseStudyId]/page.js"
 }

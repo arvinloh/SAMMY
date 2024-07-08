@@ -110,7 +110,7 @@ const portfolioData = [
 const showcaseData = [
   {
     introTitle: 'Video Direction (Jul, 2023)',
-    title: 'Campaign Video',
+    title: 'Future Campaign Video',
     videoUrl: '/video/video-4.mp4',
     href: '#',
   },
@@ -324,7 +324,7 @@ export default function Home() {
             {/* What can we do to combat the <br /> negative perception of robots? */}
               <SectionHeading
               title="What can we do to combat the <br /> negative perception of robots?"
-              subtitle="Campaign"
+              subtitle="An Ideal Solution?"
               variant="cs-style1 text-center"
             />
           </h2>
