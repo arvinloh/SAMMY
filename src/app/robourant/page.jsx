@@ -6,7 +6,7 @@ import PageHeading from "@/app/ui/PageHeading";
 import SectionHeading from "@/app/ui/SectionHeading";
 import Spacing from "@/app/ui/Spacing";
 import Image from "next/image";
-import imgUrl from '/Users/work/Documents/Monash/MonashRED/Website/A2b/public/images/robourant.png';
+import imgUrl from '/public/images/robourant.png';
 
 export default function RobourantPage() {
   return (
