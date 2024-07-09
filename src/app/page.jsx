@@ -305,7 +305,7 @@ export default function Home() {
           <Div className="col-lg-4">
             <IconBox
               icon='/images/icons/service_icon_3.svg'
-              title='Operational Efficiency and Integration:'
+              title='Operational Efficiency and Integration'
               subtitle={`Robots should seamlessly integrate into existing workflows, complementing the efforts of human staff to improve overall efficiency. <br/><br/>
               Reliability and ease of maintenance are key, requiring regular maintenance schedules and quick troubleshooting protocols to ensure continuous service. <br/><br/>
               Proper data management practices should be in place to analyze collected data for ongoing improvement while safeguarding guest privacy and security.`}

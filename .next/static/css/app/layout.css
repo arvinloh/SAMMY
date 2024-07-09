@@ -19704,6 +19704,14 @@ label {
 .cs-team.cs-style1 .cs-member_social svg {
   height: 20px;
   width: 20px;
+  color: blue;
+  transition: all 0.3s ease;
+  filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.2));
+}
+.cs-team.cs-style1 .cs-member_social svg:hover {
+  color: darkblue;
+  transform: scale(1.1);
+  filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.3));
 }
 .cs-team.cs-style1 .cs-member_name {
   font-size: 22px;
