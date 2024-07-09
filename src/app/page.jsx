@@ -32,6 +32,7 @@ const heroSocialLinks = [
     links: '#teamSection',
   },
 ];
+
 // FunFact Data
 const funfaceData = [
   {
@@ -82,28 +83,10 @@ const photosData = [
 // Portfolio Data
 const portfolioData = [
   {
-    title: 'Colorful Art Work',
+    title: 'Robourant',
     subtitle: 'See Details',
-    href: '/portfolio/portfolio-details',
-    src: '/images/portfolio_1.jpeg',
-  },
-  {
-    title: 'Colorful Art Work',
-    subtitle: 'See Details',
-    href: '/portfolio/portfolio-details',
-    src: '/images/portfolio_2.jpeg',
-  },
-  {
-    title: 'Colorful Art Work',
-    subtitle: 'See Details',
-    href: '/portfolio/portfolio-details',
-    src: '/images/portfolio_0.jpg',
-  },
-  {
-    title: 'Colorful Art Work',
-    subtitle: 'See Details',
-    href: '/portfolio/portfolio-details',
-    src: '/images/portfolio_3.jpeg',
+    href: '/robourant',
+    src: '/images/robourant2.png',
   },
 ];
 
@@ -231,22 +214,6 @@ export default function Home() {
         </Div>
       </Div> */}
       {/* End Service Section */}
-
-
-      {/* Start Portfolio Section */}
-      {/* <Spacing lg="150" md="50" />
-      <Div>
-        <Div className="container">
-          <SectionHeading
-            title="Portfolio to explore"
-            subtitle="Latest Projects"
-            variant="cs-style1 text-center"
-          />
-          <Spacing lg="90" md="45" />
-        </Div>
-        <PortfolioSlider data={portfolioData} />
-      </Div> */}
-      {/* End Portfolio Section */}
 
       {/* Start Awards Section */}
       {/* <Spacing lg="150" md="80" />
@@ -410,7 +377,7 @@ export default function Home() {
       
 
       {/* Start Case Study Section */}
-      <Spacing lg="45" md="10" />
+      {/* <Spacing lg="45" md="10" />
       <Div className="container">
         <SectionHeading
           title="Featured case study"
@@ -420,7 +387,7 @@ export default function Home() {
         <Spacing lg="90" md="45" />
       </Div>
       <CaseStudy
-        title="Robot vs <br /> Humans"
+        title="robourant Board Game"
         bgUrl="/images/case_study_2.jpeg"
         // href="#"
         href="/case-study/case-study-1"
@@ -432,8 +399,24 @@ export default function Home() {
         // href="#"
         href="/case-study/case-study-2"
       />
-      <Spacing lg="150" md="80" />
+      <Spacing lg="150" md="80" /> */}
       {/* End Case Study Section */}
+
+      {/* Start Portfolio Section */}
+      <Div>
+        <Div className="container">
+          <SectionHeading
+            title="Robourant Board Game"
+            subtitle="Latest Projects"
+            variant="cs-style1 text-center"
+          />
+          <Spacing lg="90" md="45" />
+        </Div>
+        <PortfolioSlider data={portfolioData} />
+      </Div>
+      <Spacing lg="150" md="80" />
+      {/* End Portfolio Section */}
+
 
       {/* Start MovingText Section */}
       {/* <Spacing lg="125" md="70" />

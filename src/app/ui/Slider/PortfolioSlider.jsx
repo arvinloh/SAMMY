@@ -8,7 +8,7 @@ export default function PortfolioSlider({ data }) {
   const settings = {
     className: 'center',
     centerMode: true,
-    infinite: true,
+    infinite: false,
     centerPadding: '0',
     slidesToShow: 3,
     speed: 500,
