@@ -109,10 +109,10 @@ const portfolioData = [
 
 const showcaseData = [
   {
-    introTitle: 'Video Direction (Jul, 2023)',
-    title: 'Future Campaign Video',
+    introTitle: 'Video Direction (Jul, 2024)',
+    title: 'Campaign Video',
     videoUrl: '/video/video-4.mp4',
-    href: '#',
+    href: 'https://www.youtube.com/watch?v=y2KfJ3okwTg',
   },
   // {
   //   introTitle: 'Video Direction (Jul, 2023)',
@@ -276,7 +276,7 @@ export default function Home() {
       <Spacing lg='145' md='80'/>
       <Div className="container">
         <SectionHeading 
-          title='Ideal Robots in Hospitality Industry' 
+          title="The Concerns of Robots in Hospitality Industry"
           subtitle='Analysis' 
           variant='cs-style1 text-center'
         />
@@ -330,7 +330,7 @@ export default function Home() {
           </h2>
           <Spacing lg="70" md="70" />
           <VideoModal
-            videoSrc="https://www.youtube.com/watch?v=VcaAVWtP48A"
+            videoSrc="https://www.youtube.com/watch?v=y2KfJ3okwTg"
             bgUrl="/images/video_bg_robot.png"
           />
         </Div>
@@ -422,15 +422,15 @@ export default function Home() {
       <CaseStudy
         title="Robot vs <br /> Humans"
         bgUrl="/images/case_study_2.jpeg"
-        href="#"
-        // href="/case-study/case-study-details"
+        // href="#"
+        href="/case-study/case-study-1"
         variant="cs-style2"
       />
       <CaseStudy
         title="Robots <br /> importance in hospitality"
         bgUrl="/images/case_study_1.jpeg"
-        href="#"
-        // href="/case-study/case-study-details"
+        // href="#"
+        href="/case-study/case-study-2"
       />
       <Spacing lg="150" md="80" />
       {/* End Case Study Section */}
