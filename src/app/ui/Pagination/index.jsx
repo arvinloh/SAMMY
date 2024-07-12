@@ -8,15 +8,6 @@ export default function Pagination() {
       <li>
         <Link className="cs-pagination_item cs-center active" href="/blog">1</Link>
       </li>
-      {/* <li>
-        <Link className="cs-pagination_item cs-center" href="/blog">2</Link>
-      </li>
-      <li>
-        <Link className="cs-pagination_item cs-center" href="/blog">3</Link>
-      </li>
-      <li>
-        <Link className="cs-pagination_item cs-center" href="/blog">4</Link>
-      </li> */}
       <li>
         <Link href="#" className="cs-pagination_item cs-center">
           <Icon icon="akar-icons:chevron-right" />               

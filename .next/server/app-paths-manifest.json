@@ -1,9 +1,7 @@
 {
-  "/about/page": "app/about/page.js",
-  "/blog/page": "app/blog/page.js",
-  "/not-found": "app/not-found.js",
-  "/blog/future-robot/page": "app/blog/future-robot/page.js",
   "/page": "app/page.js",
-  "/blog/rise-robots/page": "app/blog/rise-robots/page.js",
-  "/blog/eco-culture/page": "app/blog/eco-culture/page.js"
+  "/blog/page": "app/blog/page.js",
+  "/about/page": "app/about/page.js",
+  "/robourant/page": "app/robourant/page.js",
+  "/blog/rise-robots/page": "app/blog/rise-robots/page.js"
 }

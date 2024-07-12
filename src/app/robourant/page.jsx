@@ -13,7 +13,7 @@ export default function RobourantPage() {
     <>
       <PageHeading 
         title='Robourant Board Game'
-        bgSrc='/images/service_hero_bg.jpeg'
+        bgSrc='/images/case_study_details_bg.jpeg'
         pageLinkText='robourant'
       />
       <Spacing lg='150' md='80'/>
@@ -24,7 +24,7 @@ export default function RobourantPage() {
           <Div className="col-lg-13">
             <SectionHeading 
               title='Robourant' 
-              subtitle='Creative' 
+              subtitle='Board Game' 
             >
               <Spacing lg='40' md='20'/>
               <h2>Objective</h2>
