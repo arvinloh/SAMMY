@@ -25,6 +25,21 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/blog/page.js"
+    ],
+    "/blog/future-robot/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/blog/future-robot/page.js"
+    ],
+    "/blog/rise-robots/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/blog/rise-robots/page.js"
+    ],
+    "/blog/eco-culture/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/blog/eco-culture/page.js"
     ]
   }
 }
