@@ -30,12 +30,6 @@ export default function Hero2({data, phoneNumber, email}) {
           ))}
         </Div>
       </Div>
-      {/* <Div className="cs-hero_social_wrap cs-left_side cs-primary_font cs-primary_color">
-        <ul className="cs-hero_social_links">
-          <li><span>{email}</span></li>
-          <li><span>{phoneNumber}</span></li>
-        </ul>
-      </Div> */}
     </Div>
   );
 }

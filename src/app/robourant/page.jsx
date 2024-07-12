@@ -127,56 +127,10 @@ export default function RobourantPage() {
 
             </SectionHeading>
           </Div>
-          {/* <Div className="col-lg-5 offset-lg-1">
-            <Spacing lg='60' md='40'/>
-            <h2 className='cs-font_30 cs-font_26_sm cs-m0'>Project Info -</h2>
-            <Spacing lg='50' md='30'/>
-            <Div className="row">
-              <Div className="col-6">
-                <h3 className='cs-accent_color cs-font_22 cs-font_18_sm cs-m0'>Category:</h3>
-                <p className='cs-m0'>Artwork</p>
-                <Spacing lg='30' md='30'/>
-              </Div>
-              <Div className="col-6">
-                <h3 className='cs-accent_color cs-font_22 cs-font_18_sm cs-m0'>Location:</h3>
-                <p className='cs-m0'>United Kindom</p>
-                <Spacing lg='30' md='30'/>
-              </Div>
-              <Div className="col-6">
-                <h3 className='cs-accent_color cs-font_22 cs-font_18_sm cs-m0'>Software:</h3>
-                <p className='cs-m0'>Adobe Illustrator</p>
-                <Spacing lg='30' md='30'/>
-              </Div>
-              <Div className="col-6">
-                <h3 className='cs-accent_color cs-font_22 cs-font_18_sm cs-m0'>Dated:</h3>
-                <p className='cs-m0'>14-Aug-2022</p>
-                <Spacing lg='30' md='30'/>
-              </Div>
-              <Div className="col-6">
-                <h3 className='cs-accent_color cs-font_22 cs-font_18_sm cs-m0'>Client:</h3>
-                <p className='cs-m0'>Andreo Bowla</p>
-                <Spacing lg='30' md='30'/>
-              </Div>
-            </Div>
-          </Div> */}
         </Div>
         <Spacing lg='65' md='10'/>
-          {/* <Div className="cs-page_navigation cs-center">
-            <Div>
-              <Button btnLink='/portfolio-details' btnText='Prev Project' variant='cs-type1'/>
-            </Div>
-            <Div>
-              <Button btnLink='/portfolio-details' btnText='Next Project'/>
-            </Div>
-          </Div> */}
       </Div>
-      {/* <Spacing lg='145' md='80'/> */}
-      {/* <Cta 
-        title='agency@arino.com' 
-        bgSrc='/images/cta_bg_2.jpeg'
-        href=''
-        variant='rounded-0'
-      /> */}
+
       {/* <Div className="container"> */}
         <Cta 
           title='Download the leaflet' 

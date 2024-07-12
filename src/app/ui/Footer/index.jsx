@@ -17,25 +17,6 @@ const copyrightLinks = [
   },
 ];
 
-const serviceMenu = [
-  {
-    title: 'UI/UX design',
-    href: '/service/service-details',
-  },
-  {
-    title: 'WP development',
-    href: '/service/service-details',
-  },
-  {
-    title: 'Digital marketing',
-    href: '/service/service-details',
-  },
-  {
-    title: 'React development',
-    href: '/service/service-details',
-  },
-];
-
 const date = new Date().getFullYear();
 
 export default function Footer({ copyrightText, logoSrc, logoAlt, text }) {
@@ -54,25 +35,11 @@ export default function Footer({ copyrightText, logoSrc, logoAlt, text }) {
                 <SocialWidget />
               </Div>
             </Div>
-            {/* <Div className="col-lg-3 col-sm-6">
-              <Div className="cs-footer_item">
-                <MenuWidget menuItems={serviceMenu} menuHeading="Services" />
-              </Div>
-            </Div> */}
             <Div className="col-lg-6 col-sm-12">
               <Div className="cs-footer_item">
                 <ContactInfoWidget title="Location" />
               </Div>
             </Div>
-            {/* <Div className="col-lg-3 col-sm-6">
-              <Div className="cs-footer_item">
-                <Newsletter
-                  title="Subscribe"
-                  subtitle="At vero eos et accusamus et iusto odio as part dignissimos ducimus qui blandit."
-                  placeholder="example@gmail.com"
-                />
-              </Div>
-            </Div> */}
           </Div>
         </Div>
       </Div>
