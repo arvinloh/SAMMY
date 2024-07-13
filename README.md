@@ -1,4 +1,20 @@
 # This is a website dedicated to showcase the Impact of Robots in Public Spaces
 
-The website is coded in React, Next.js, and CSS. It is hosted on Vercel.
-Made by Arvin, 2024.
+The website is coded in React, Next.js, and CSS. It is hosted on Vercel. \n
+
+### Installation
+
+If you use npm
+```
+$ npm install
+```
+
+### Local Development
+
+If you use npm
+```
+$ npm run dev
+```
+
+
+This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
