@@ -1,4 +1,4 @@
-# This is a website dedicated to showcase the Impact of Robots in Public Spaces
+# SAMMY Website
 
 The website is coded in React, Next.js, and CSS. It is hosted on Vercel.
 
