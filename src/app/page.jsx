@@ -245,9 +245,9 @@ export default function Home() {
       {/* Start CTA Section */}
       <Div className="container">
         <Cta 
-          title='Help us in our campaign by filling up a questionnaire' 
+          title='Leave an inquiry!' 
           btnText='Form' 
-          btnLink='https://forms.gle/A8dzDrUfjDeY7HMk9' 
+          btnLink='/inquiry' 
           bgSrc='/images/cta_bg.jpeg'
         />
       </Div>
